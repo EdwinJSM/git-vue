@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Malena no se baña"/>
+  <HelloWorld msg="Malena no se baña y Raiza TARU"/>
 </template>
 
 <script>
