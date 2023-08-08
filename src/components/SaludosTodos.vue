@@ -8,6 +8,4 @@
     }
 </script>
 
-<style>
-    @import '../assets/css/style.css';
-</style>
+<style lang="css" scoped src="../assets/css/style.css"></style>
