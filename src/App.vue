@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Malena no se baña y Raiza TARU"/>
+  <SaludosTodos></SaludosTodos>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import SaludosTodos from './components/SaludosTodos.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    SaludosTodos
   }
 }
 </script>
