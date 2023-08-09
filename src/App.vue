@@ -1,16 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Malena no se baña y Raiza TARU"/>
+   <div class="container">
+ <HeaderHeader title="Task Tracker"/>
+   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderHeader from './components/HeaderHeader.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+  HeaderHeader
+  },
 }
 </script>
 
