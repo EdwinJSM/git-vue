@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Malena no se baña y Raiza TARU"/>
+  <SaludosTodos></SaludosTodos>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import SaludosTodos from './components/SaludosTodos.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    SaludosTodos
   }
 }
 </script>
@@ -20,7 +23,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #0643a041;
   margin-top: 60px;
 }
 </style>
