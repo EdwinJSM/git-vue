@@ -33,13 +33,13 @@ export default {
       id: 2,
       text: 'Edwin tiene que bañarse',
       day: 'August 25 at 9:00pm',
-      reminder: true,
+      reminder: false,
     },
     {
       id: 3,
       text: 'Super tiene que bañarse',
       day: 'september 25 at 9:00pm',
-      reminder: true,
+      reminder: false,
     },
     {
       id: 4,
