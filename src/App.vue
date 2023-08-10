@@ -25,26 +25,26 @@ export default {
     this.Tasks =[
     {
       id: 1,
-      text: 'tareas1',
+      text: 'Malena tiene que bañarse',
       day: 'december 25 at 9:00pm',
       reminder: true,
     },
     {
       id: 2,
-      text: 'tareas2',
-      day: 'december 25 at 9:00pm',
+      text: 'Edwin tiene que bañarse',
+      day: 'August 25 at 9:00pm',
       reminder: true,
     },
     {
       id: 3,
-      text: 'tareas3',
-      day: 'december 25 at 9:00pm',
+      text: 'Super tiene que bañarse',
+      day: 'september 25 at 9:00pm',
       reminder: true,
     },
     {
       id: 4,
-      text: 'tareas4',
-      day: 'december 25 at 9:00pm',
+      text: 'Emil tiene que bañarse',
+      day: 'may 25 at 9:00pm',
       reminder: true,
     },
     ]
