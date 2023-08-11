@@ -23,7 +23,7 @@ export default {
 },
 methods:{
   deleteTask(id){
-    console.log('task',id)
+    console.log(id)
   },
 },
   created(){

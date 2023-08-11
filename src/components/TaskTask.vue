@@ -16,7 +16,7 @@ export default{
     },
     methods:{
         onDelete (id){
-           this.$emit('deleteTask', id)
+           this.$emit('delete-task', id)
         },
     },
 }
