@@ -1,7 +1,7 @@
 <template>
    <div class="container">
  <HeaderHeader title="Task Tracker"/>
-  <TasksTasks @delete-task="deleteTask" :Tasks="Tasks"/>
+  <TasksTasks @toggle-reminder="toggleReminder" @delete-task="deleteTask" :Tasks="Tasks"/>
    </div>
 </template>
 
@@ -25,6 +25,9 @@ methods:{
   deleteTask(id){
     console.log(id)
   },
+  toggleReminder(id){
+    console.log(id)
+  }
 },
   created(){
     this.Tasks =[
